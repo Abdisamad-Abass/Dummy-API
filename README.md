@@ -26,7 +26,7 @@ This is a simple React application that fetches products from the [DummyJSON API
 ## 📸 Screenshot
 Here’s what the app looks like:
 
-![App Screenshot](products/src/assets/screenshot.png)
+![App Screenshot](products/src/assets/Screenshot.png)
 
 
 ---
