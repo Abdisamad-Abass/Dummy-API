@@ -1,6 +1,14 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
+interface Product {
+  id: number;
+  title: string;
+  description: string;
+  price: number;
+  thumbnail: string;
+}
+
 function Products() {
   const [products, setProducts] = useState([]);
   const [page, setPage] = useState(1);
