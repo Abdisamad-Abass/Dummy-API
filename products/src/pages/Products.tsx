@@ -10,7 +10,7 @@ interface Product {
 }
 
 function Products() {
-  const [products, setProducts] = useState([]);
+  const [products, setProducts] = useState<Product[]>([]);
   const [page, setPage] = useState(1);
   const [totalProducts, setTotalProducts] = useState(0);
   const limit = 10; 
